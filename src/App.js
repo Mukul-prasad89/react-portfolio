@@ -1,23 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Routes, Route, useLocation } from 'react-router-dom';
+import LeftPreview from './pages/LeftPreview';
+import Home from './pages/Home';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Skills from './pages/Skills';
+import Project from './pages/Project';
+import { AnimatePresence, motion } from 'framer-motion';
+
+const pageVariants = {
+  initial: { opacity: 0, y: 100 },
+  animate: { opacity: 1, y: 0 },
+  exit: { opacity: 0, y: -100 }
+};
+
 
 function App() {
+  const location = useLocation(); 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+      <LeftPreview />
+      <AnimatePresence mode="wait">
+        <motion.div
+          key={location.pathname} 
+          variants={pageVariants}
+          initial="initial"
+          animate="animate"
+          exit="exit"
+          transition={{ duration: 0.3 }}
+      
         >
-          Learn React
-        </a>
-      </header>
+          <Routes location={location}>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/skills" element={<Skills />} />
+            <Route path="/projects" element={<Project />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </motion.div>
+      </AnimatePresence>
     </div>
   );
 }
