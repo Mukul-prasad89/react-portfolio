@@ -30,7 +30,7 @@ const Project = () => {
     ];
 
     return (
-        <div className="project-page">
+        <div className="project-page margin">
             <h1>My Projects</h1>
             <div className="project-list">
                 {projectsData.map((project, index) => (

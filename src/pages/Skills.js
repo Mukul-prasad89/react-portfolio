@@ -33,7 +33,7 @@ const Skills = () => {
     ];
 
     return (
-        <div className="skill-page">
+        <div className="skill-page margin">
             <h1>My Skills</h1>
             <div className="skills-list">
                 {skillsData.map((skill, index) => (

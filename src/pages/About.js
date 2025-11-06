@@ -6,7 +6,7 @@ import resume from "../assets/Mukul_Resume.pdf";
 const About = () => {
     
     return (
-        <div className="about-section">
+        <div className="about-section margin">
            
             <div className="about-section-contents">
                 <h1 className="about-heading">

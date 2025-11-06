@@ -6,7 +6,7 @@ const Home = () => {
     
 
     return (
-        <div className="home-page ">
+        <div className="home-page margin">
             <div className="home-content blob-wrapper ">
                 <div className="blob" >
                     <img

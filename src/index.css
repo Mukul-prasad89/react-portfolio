@@ -61,6 +61,9 @@ a{
   font-size: 2rem;
 }
 .active{
+  
+  border-bottom:var(--text-color) solid 1px;
+
   font-weight: 800;
   color: rgb(255, 255, 255);
 }
@@ -76,13 +79,7 @@ a{
 }
 
 
-/* .home-image {
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
-  object-fit: cover;
 
-} */
 .heading {
   font-size: 4rem;
   font-weight: 800;
@@ -157,10 +154,10 @@ a{
 
 .about-image{
   width: 100%;
-  height: 800px ;
+  height: 600px ;
   
   object-fit: cover;
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 .about-buttons{
   margin-top: 2rem;
@@ -428,6 +425,9 @@ a{
   z-index: -1;
   border: 3px solid rgba(255, 255, 255, 0.1);
 }
+.mobileName{
+  display: none;
+}
 
 /* Morph animation for the blob */
 @keyframes morph {
@@ -448,4 +448,71 @@ a{
 
 #root{
   background-color: #111;
+}
+
+@media (max-width:947px){
+  .left-preview{
+    width: 100vw;
+    height: 7vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+
+  }
+  .links{
+        flex-direction: row;
+    justify-content: space-around;
+    gap: 1rem;
+    width: 93vw;
+    font-size: 1.2rem;
+  }
+  .name{
+    display: none;
+  }
+  .margin{
+    margin-left: 0px;
+    width: 100vw;
+  }
+  .mobileName{
+    display: block;
+  }
+  
+  
+}
+
+@media (max-width:740px){
+  .home-page{
+    flex-wrap: wrap;
+  }
+  .home-content{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+  }
+  .links{
+    font-size:1rem ;
+    width: 70vw;
+  }
+  
+  
+  .blob{
+    width: 70%;
+    height: 70;
+  }
+  h1{
+    padding-top: 2rem;
+  }
+  .about-image{
+    height: 400px;
+    margin-top: 2rem;
+  }
+  
+  
+}
+@media (max-width:740px){
+  .home-image{
+    margin-right:100px;
+  }
 }
