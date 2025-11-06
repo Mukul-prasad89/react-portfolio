@@ -496,12 +496,7 @@ a{
     
   }
   /* social */
-  .social-links {
-    justify-content: center;
-    flex-wrap: wrap; 
-    gap: 16px;
-    margin-top: 2rem;
-  }
+  
  
   
   .name{
@@ -531,6 +526,12 @@ a{
 }
 
 @media (max-width:740px){
+  .social-links {
+    justify-content: center;
+    flex-wrap: wrap; 
+    gap: 16px;
+    margin-top: 2rem;
+  }
 
   
   .home-page{
