@@ -7,7 +7,7 @@ const LeftPreview = () => {
             <div className='left-preview-items '>
                 
                     <h2 className='name'>MUKUL<br></br> PRASAD </h2>
-                    {/* <h2 className='mobileName'> MUKUL PRASAD</h2> */}
+                   {/* <h2 className='mobileName'> MUKUL PRASAD</h2> */}
                 
                 <div >
                     <ul className="links ">
