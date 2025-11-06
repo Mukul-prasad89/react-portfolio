@@ -63,9 +63,18 @@ a{
 .active{
   
   border-bottom:var(--text-color) solid 1px;
-
+  padding-bottom: .5rem;
   font-weight: 800;
   color: rgb(255, 255, 255);
+}
+.social-links{
+ 
+  display: flex;
+  flex-direction: row;
+  gap: .7rem;
+  font-size: 2rem;
+  color: white;
+  
 }
 
 
@@ -428,6 +437,15 @@ a{
 .mobileName{
   display: none;
 }
+/* react icons */
+.links li a {
+  display: flex;
+  align-items: center;
+  
+  gap: 1rem; 
+}
+  
+  
 
 /* Morph animation for the blob */
 @keyframes morph {
@@ -459,9 +477,14 @@ a{
     left: 0;
     
     
+    
 
     
   }
+  .react-icons{
+  margin-top: 0rem;
+  display: none;
+}
 
   .links{
     
