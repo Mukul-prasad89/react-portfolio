@@ -56,16 +56,25 @@ a{
  
 }
 
+/* nav */
+.react-icons{
+  margin-bottom: .1rem;
+  width: 14px;
+  height: 14px;
+  
+  
+}
+
 /* Home */
 .name{
   font-size: 2rem;
 }
 .active{
   
-  border-bottom:var(--text-color) solid 1px;
+  /* border-bottom:var(--text-color) solid 1px; */
   padding-bottom: .5rem;
   font-weight: 800;
-  color: rgb(255, 255, 255);
+  color: rgb(252, 252, 252);
 }
 .social-links{
  
