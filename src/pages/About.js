@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import image from  "../assets/profile2.jpeg";
-import resume from "../assets/Mukul_Resume1.pdf";
+import resume from "../../public/Mukul_Resume1.pdf"
 
 const About = () => {
     
