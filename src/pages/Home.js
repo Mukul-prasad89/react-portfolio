@@ -3,7 +3,7 @@ import image from '../assets/profile.jpeg';
 import AutoType from "../components/AutoType";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 // import GradientText from './GradientText'
@@ -13,12 +13,12 @@ const Home = () => {
 
     return (
         <div className="home-page margin">
-            <div className="home-content blob-wrapper ">
-                <div className="blob" >
+            <div className="home-content">
+                <div className="profile-container">
                     <img
                         src={image}
-
-                        className="home-image blob-image"
+                        alt="Mukul Prasad"
+                        className="home-image"
                     />
                 </div>
                 <div className="description">
@@ -40,7 +40,7 @@ const Home = () => {
                         <a href="https://github.com/Mukul-prasad89"><FaGithub /></a>
                         <a href="https://www.instagram.com/__main__mukul__?igsh=MXhubmVoc3I0NXZodg=="><FaInstagram /></a>
                         <a href="mailto:mukulprasad89@gmail.com"><MdEmail /></a>
-                        <a href="https://x.com/MukulPrasad19"><FaTwitter /></a>
+                        <a href="https://x.com/MukulPrasad19"><FaXTwitter /></a>
                     </ul>
                 </div>
 

@@ -17,11 +17,11 @@ const LeftPreview = () => {
                 
                 <div >
                     <ul className="links ">
-                        <li ><NavLink to='/'> <span className='react-icons'><IoMdHome /></span> Home </NavLink></li>
-                        <li> <NavLink to='/about'> <span className='react-icons'><FaUser /></span> About </NavLink></li>
-                        <li><NavLink to='/skills'> <span className='react-icons'><FaInfo /></span> Skills </NavLink></li>
-                        <li><NavLink to='/projects'><span className='react-icons'><IoIosLaptop /></span> Projects </NavLink></li>
-                        <li><NavLink to='/contact'> <span className='react-icons'><RiContactsBook3Fill /></span> Contact </NavLink></li>
+                        <li ><NavLink to='/'> <span className='react-icons'><IoMdHome /></span><span className="link-text">Home</span> </NavLink></li>
+                        <li> <NavLink to='/about'> <span className='react-icons'><FaUser /></span><span className="link-text">About</span> </NavLink></li>
+                        <li><NavLink to='/skills'> <span className='react-icons'><FaInfo /></span><span className="link-text">Skills</span> </NavLink></li>
+                        <li><NavLink to='/projects'><span className='react-icons'><IoIosLaptop /></span><span className="link-text">Projects</span> </NavLink></li>
+                        <li><NavLink to='/contact'> <span className='react-icons'><RiContactsBook3Fill /></span><span className="link-text">Contact</span> </NavLink></li>
                     </ul>
 
                 </div>
