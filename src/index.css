@@ -57,6 +57,9 @@ a{
 }
 .links a{
   color: var(--text-color);
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
 }
 .links a svg{
   color: var(--text-color) !important;
@@ -69,11 +72,6 @@ a{
 .links a.active svg{
   color: rgb(255, 255, 255) !important;
   fill: rgb(255, 255, 255);
-}
-.links a{
-  display: flex;
-  align-items: center;
-  gap: 0.6rem;
 }
 .link-text{
   display: inline-block;
@@ -579,7 +577,7 @@ a{
     justify-content: center;
     flex-wrap: wrap; 
     gap: 16px;
-    margin-top: 2rem;
+    margin-top: 0.8rem;
   }
 
   
@@ -595,11 +593,11 @@ a{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 2rem;
+    gap: 1.2rem;
   }
   
   .profile-container{
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
   
   .about-section,

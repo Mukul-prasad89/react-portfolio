@@ -30,11 +30,9 @@ const Home = () => {
                     
                      <AutoType /> 
                      <br></br>
-                    <br></br>
                     <p className="para">I'm Mukul, a skilled and creative frontend developer with a passion for creating beautiful, responsive, and user-friendly websites. I've worked on a variety of web projects, ranging from a simple calculator,ToDo App,random joke to food delivery platforms.
 
                     </p>
-                    <br></br>
                     <ul className="social-links">
                         <a href="https://www.linkedin.com/in/mukul-prasad-0917122a6/"><FaLinkedin /></a>
                         <a href="https://github.com/Mukul-prasad89"><FaGithub /></a>
