@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import image from  "../assets/profile2.jpeg";
-import resume from "../../public/Mukul_Resume1.pdf"
 
 const About = () => {
     
@@ -43,7 +42,7 @@ const About = () => {
 
                 <div className="about-buttons">
                     <a
-                        href={resume} download={true}
+                        href={`${process.env.PUBLIC_URL}/Mukul_Resume1.pdf`} download={true}
                         className="btn"
                         
                     >
