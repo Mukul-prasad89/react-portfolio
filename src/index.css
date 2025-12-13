@@ -6,15 +6,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: rgb(255, 255, 255);
-  
   font-family: "Montserrat", sans-serif;
-  
-  
+}
+body{
+  color: rgb(255, 255, 255);
 }
 a{
   text-decoration: none;
-
+  color: inherit;
 }
 
 /* Navigation */
@@ -146,10 +145,14 @@ a{
 .typewriter {
   font-size: 1.5rem;
   font-weight: 600;
-  
   display: inline-flex;
   align-items: baseline;
   gap: 2px;
+  margin-bottom: 1.5rem;
+}
+
+.social-links {
+  margin-top: 1.5rem;
 }
 
 /* About */
@@ -577,7 +580,7 @@ a{
     justify-content: center;
     flex-wrap: wrap; 
     gap: 16px;
-    margin-top: 0.8rem;
+    margin-top: 0;
   }
 
   
