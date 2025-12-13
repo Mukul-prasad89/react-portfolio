@@ -351,6 +351,7 @@ a{
   min-height: 100vh;
   margin-left: 290px;
   padding: 5rem;
+  box-sizing: border-box;
 }
 
 .project-page h1 {
@@ -362,7 +363,9 @@ a{
 .project-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap: 5rem;
+  gap: 3rem;
+  justify-content: center;
+  max-width: 100%;
 }
 
 .project-card {
@@ -378,14 +381,17 @@ a{
   width: 100%;
   height: 200px;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  box-sizing: border-box;
 }
 
 .project-image {
-  width: 88%;
+  width: 100%;
   height: 100%;
   object-fit: cover;
-  margin-left: 1.6rem;
-  margin-top: 1.5rem;
 }
 
 .project-body {
@@ -601,6 +607,13 @@ a{
   .skill-page,
   .project-page {
     padding:  2rem;
+    box-sizing: border-box;
+  }
+  
+  .project-list {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 0;
   }
   
   .heading {
@@ -611,6 +624,11 @@ a{
   margin-top: 0vh;
   
 }
+
+  .about-buttons{
+    flex-wrap: wrap;
+    justify-content: left;
+  }
 
   .about-heading,
   .contact-heading,

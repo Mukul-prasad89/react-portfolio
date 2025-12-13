@@ -55,6 +55,13 @@ const About = () => {
                     >
                         My LeetCode
                     </a>
+                    <a
+                    className="btn"
+                        href="https://www.geeksforgeeks.org/profile/mukulpr5e98"
+                        
+                    >
+                        My GFG
+                    </a>
                 </div>
             </div>
         </div>
