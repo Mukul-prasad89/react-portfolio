@@ -5,10 +5,10 @@ const Contact = () => {
     <div className="contact-section margin">
       <div className="contact-content">
         <div className="contact-left">
-          <h1 className="contact-heading">Get in Touch</h1>
+          <h1 className="contact-heading">Let's Collaborate</h1>
           <p className="contact-description">
             Have a question, project idea, or collaboration in mind?  
-            Feel free to reach out — I’d love to connect and discuss.
+            Get in Touch for Web Magic
           </p>
         </div>
 

@@ -1,5 +1,5 @@
 import React from "react";
-import { motion } from "framer-motion";
+
 import image from  "../assets/profile2.jpeg";
 
 const About = () => {
@@ -23,7 +23,7 @@ const About = () => {
                 <p className="about-description"
                     
                 >
-                    I am a third-year Computer Science Engineering student specializing in Data Science.
+                    I am a professional Frontend Developer with a strong foundation in Data Structures & Algorithms.
                     I have hands-on experience in building practical web applications including a <srtong> Food Delivery app,
                     simple calculator,ToDo List and a random joke generator.</srtong> These projects demonstrate my skills
                     in front-end development and basic backend integration.

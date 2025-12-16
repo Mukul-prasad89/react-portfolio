@@ -240,6 +240,7 @@ a{
   font-size: 3rem;
   font-weight: 700;
   margin-bottom: 1.5rem;
+
 }
 
 .contact-description {
@@ -576,6 +577,7 @@ a{
 }
 
 @media (max-width:740px){
+
   .social-links {
     justify-content: center;
     flex-wrap: wrap; 
@@ -583,7 +585,6 @@ a{
     margin-top: 1rem;
   }
 
-  
   .home-page{
     flex-wrap: wrap;
     padding: 2rem 2rem;
@@ -636,6 +637,9 @@ a{
   .skill-page h1,
   .project-page h1 {
     font-size: 2rem;
+  }
+  .contact-heading{
+    margin-top: -6rem;;
   }
   
   .blob{
