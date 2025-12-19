@@ -2,12 +2,58 @@
 :root{
   --text-color:rgb(150, 148, 148);
 }
+
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
+
+/* Preloader */
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.preloader-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  color: white;
+  text-align: center;
+}
+
+.preloader-text h3 {
+  font-size: 50px;
+  font-weight: 500;
+  margin: 0;
+}
+
+/* Responsive text sizes */
+@media (min-width: 768px) {
+  .preloader-text h3 {
+    font-size: 4rem; /* md:text-6xl */
+  }
+}
+
+@media (min-width: 1024px) {
+  .preloader-text h3 {
+    font-size: 8rem; /* lg:text-9xl */
+  }
+}
+
+
 body{
   color: rgb(255, 255, 255);
 }
