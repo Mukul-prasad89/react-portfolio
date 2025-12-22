@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion"; 
 
 
-const roles = ["Frontend Developer", "Web Designer", "UI/UX Enthusiast"];
+const roles = ["MERN Stack Developer", "Web Designer", "Blockchain Enthusiast","Vocalist"];
 
 export default function AutoType() {
   const [index, setIndex] = useState(0); 

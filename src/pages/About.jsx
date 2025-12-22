@@ -4,6 +4,7 @@ import image from  "../assets/profile2.jpeg";
 
 const About = () => {
     
+    
     return (
         <div className="about-section margin">
            
@@ -15,7 +16,7 @@ const About = () => {
                 
                 <h1 className="about-name">Mukul Prasad</h1>
                 <br></br>
-                <h4 className="about-role">Frontend Developer | Web Designer | UI/UX Enthusiast</h4>
+                <h4 className="about-role">MERN Stack Developer | BlockChain Enthusiast | Vocalist</h4>
                 <div className="divider"></div>
 
 
@@ -23,19 +24,16 @@ const About = () => {
                 <p className="about-description"
                     
                 >
-                    I am a professional Frontend Developer with a strong foundation in Data Structures & Algorithms.
-                    I have hands-on experience in building practical web applications including a <srtong> Food Delivery app,
-                    simple calculator,ToDo List and a random joke generator.</srtong> These projects demonstrate my skills
-                    in front-end development and basic backend integration.
+                    I am MERN Stack Developer with a strong foundation in Data Structures & Algorithms.
+                    I have hands-on experience in building practical web applications including a <srtong> CodeTrack,
+                    Food Delivery app, and a random joke generator.</srtong> These projects demonstrate my skills
+                    in front-end development and backend integration.
                     <br /><br />
-                    I have solid hands-on experience working with core topics such as Arrays, Strings, Linked Lists,
+                    I have solid understanding of core topics of Data Structures such as Arrays, Strings, Linked Lists,
                     Stacks, Queues, Trees, Binary Search Trees, Heaps, and HashMaps. These problem-solving skills
                     have strengthened my logical thinking and coding efficiency.
                     <br /><br />
-                    Currently, I am expanding my expertise in backend technologies, learning Node.js, Express, REST APIs,
-                    and other modern frameworks to build scalable and efficient web applications. With a strong foundation
-                    in Data Structures & Algorithms, I am passionate about developing data-driven, user-centric solutions
-                    and continuously improving my technical and problem-solving skills.
+                    Currently, I have hands-on experience in Web development using React Js, Node Js, Express Js, REST APIs, MongoDB, JavaScript, Tailwind CSS, CSS and HTML. I am currently focused on building scalable systems while strengthening my understanding of System Design and Low-Level Design (LLD). With a solid foundation in Data Structures and Algorithms, I aim to develop efficient, maintainable, and user-centric backend solutions.
                 </p>
 
                

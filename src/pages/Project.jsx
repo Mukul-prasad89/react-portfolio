@@ -3,9 +3,18 @@ import ProjectCard from "../components/ProjectCard";
 import rasoi from '../assets/rasoi.png';
 import laughline from '../assets/laughline.png';
 import spendwise from '../assets/spendwise.png';
+import codetrack from '../assets/CodeTrack.png';
 
 const Project = () => {
     const projectsData = [
+        {
+  title: "CodeTrack",
+  description: "CodeTrack is a full-stack platform that enables mentors to assign daily coding tasks to their students.",
+  techStack: ["ReactJs", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
+  liveDemo: "https://code-track-peach.vercel.app/",
+  image: codetrack
+},
+
         {
             title: "Rasoi",
             description: "Rasoi is a food ordering app. It has strengthened my UI design and component structuring skills.",
