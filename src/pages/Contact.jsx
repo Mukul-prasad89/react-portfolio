@@ -1,6 +1,13 @@
 import React from "react";
+import { toast } from "react-toastify";
 
 const Contact = () => {
+  const notify = () => toast("Email sent successfully!");
+  const  formSubmitHandler = (e) => {
+    e.preventDefault();
+    // Add your form submission logic here
+    notify();
+  };
   return (
     <div className="contact-section margin">
       <div className="contact-content">
@@ -23,7 +30,7 @@ const Contact = () => {
             <label htmlFor="message">Message</label>
             <textarea id="message" placeholder="Your message..." rows="5" />
 
-            <button type="submit" className="btn">
+            <button onClick={formSubmitHandler} type="submit" className="btn">
               Send Message
             </button>
           </form>

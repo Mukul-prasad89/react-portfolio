@@ -8,6 +8,7 @@ import Skills from './pages/Skills';
 import Project from './pages/Project';
 import { AnimatePresence, motion } from 'framer-motion';
 import Preloader from './components/Preloader';
+import { ToastContainer }    from 'react-toastify';
 
 const pageVariants = {
   initial: { opacity: 0, y: 100 },
@@ -58,6 +59,7 @@ function App() {
               </Routes>
             </motion.div>
           </AnimatePresence>
+          <ToastContainer/>
         </>
       )}
     </div>

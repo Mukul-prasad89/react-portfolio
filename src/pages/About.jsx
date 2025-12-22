@@ -1,8 +1,13 @@
 import React from "react";
+import {toast} from "react-toastify";
 
 import image from  "../assets/profile2.jpeg";
 
 const About = () => {
+    const download = () => {
+        toast.success("Resume Downloaded Successfully!");
+    }
+
     
     
     return (
@@ -25,6 +30,7 @@ const About = () => {
                     
                 >
                     I am MERN Stack Developer with a strong foundation in Data Structures & Algorithms.
+                    <br></br>
                     I have hands-on experience in building practical web applications including a <srtong> CodeTrack,
                     Food Delivery app, and a random joke generator.</srtong> These projects demonstrate my skills
                     in front-end development and backend integration.
@@ -33,13 +39,15 @@ const About = () => {
                     Stacks, Queues, Trees, Binary Search Trees, Heaps, and HashMaps. These problem-solving skills
                     have strengthened my logical thinking and coding efficiency.
                     <br /><br />
-                    Currently, I have hands-on experience in Web development using React Js, Node Js, Express Js, REST APIs, MongoDB, JavaScript, Tailwind CSS, CSS and HTML. I am currently focused on building scalable systems while strengthening my understanding of System Design and Low-Level Design (LLD). With a solid foundation in Data Structures and Algorithms, I aim to develop efficient, maintainable, and user-centric backend solutions.
+                    I have hands-on experience in Web development using React Js, Node Js, Express Js, REST APIs, MongoDB, JavaScript, Tailwind CSS, CSS and HTML. I am currently focused on building scalable systems while strengthening my understanding of System Design and Low-Level Design (LLD). With a solid foundation in Data Structures and Algorithms, I aim to develop efficient, maintainable, and user-centric backend solutions.
                 </p>
 
                
 
                 <div className="about-buttons">
-                    <a
+                    <a onClick={() =>{
+                        download();
+                    }}
                         href={`${process.env.PUBLIC_URL}/Mukul_Resume1.pdf`} download={true}
                         className="btn"
                         
