@@ -21,7 +21,7 @@ const About = () => {
                 
                 <h1 className="about-name">Mukul Prasad</h1>
                 <br></br>
-                <h4 className="about-role">MERN Stack Developer | BlockChain Enthusiast | Vocalist</h4>
+                <h4 className="about-role">Full Stack Developer | BlockChain Enthusiast | Vocalist</h4>
                 <div className="divider"></div>
 
 
@@ -29,7 +29,7 @@ const About = () => {
                 <p className="about-description"
                     
                 >
-                    I am MERN Stack Developer with a strong foundation in Data Structures & Algorithms.
+                    I am Full Stack Developer with a strong foundation in Data Structures & Algorithms.
                     <br></br>
                     I have hands-on experience in building practical web applications including a <srtong> CodeTrack,
                     Food Delivery app, and a random joke generator.</srtong> These projects demonstrate my skills

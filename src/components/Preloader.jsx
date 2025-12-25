@@ -80,7 +80,7 @@ const Preloader = ({ onContentReady, onComplete }) => {
       <motion.div variants={stagger} className="preloader-text">
         <motion.h3 variants={childAnimationVariant}>Web Developer</motion.h3>
         <motion.h3 variants={childAnimationVariant}>Freelancer</motion.h3>
-        <motion.h3 variants={childAnimationVariant}>Vocalist</motion.h3>
+        <motion.h3 variants={childAnimationVariant}>Backend Developer</motion.h3>
       </motion.div>
     </motion.div>
   );
