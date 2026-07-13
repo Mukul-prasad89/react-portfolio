@@ -1,34 +1,43 @@
 import React from "react";
 import ProjectCard from "../components/ProjectCard";
-import rasoi from '../assets/rasoi.png';
-import laughline from '../assets/laughline.png';
+import coldmail from '../assets/ColdMail.png';
+import herbaltrace from '../assets/herbaltrace.png';
 import spendwise from '../assets/spendwise.png';
-import codetrack from '../assets/CodeTrack.png';
 
 const Project = () => {
     const projectsData = [
-        {
-  title: "CodeTrack",
-  description: "CodeTrack is a full-stack platform that enables mentors to assign daily coding tasks to their students.",
-  techStack: ["ReactJs", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
-  liveDemo: "https://code-track-peach.vercel.app/",
-  image: codetrack
+  {
+  title: "ColdMail AI",
+  description: "ColdMail AI is a GenAI-powered platform that helps service-based companies generate personalized cold emails for potential clients. It analyzes job postings, extracts required skills using LLMs, matches them with the most relevant candidate profiles from a vector database through semantic search, and generates tailored outreach emails.",
+  techStack: [
+    "ReactJs",
+    "Node.js",
+    "Express.js",
+    "LangChain",
+    "Groq Llama 3.3",
+    "ChromaDB",
+    "Tailwind CSS"
+  ],
+  liveDemo: "https://cold-mail-ai-n6ah.vercel.app/",
+  image: coldmail
+},
+{
+  title: "HerbalTrace",
+  description: "HerbalTrace is a blockchain-powered platform that enables users to verify the authenticity and traceability of herbal products. It leverages Hyperledger Fabric to securely record every stage of the supply chain, allowing consumers to scan a QR code and access transparent product information, including origin, manufacturing details, and quality certifications.",
+  techStack: [
+    "ReactJs",
+    "Tailwind CSS",
+    "Supabase Authentication",
+    "Node.js",
+    "Express.js",
+    "Hyperledger Fabric",
+    "MongoDB"
+  ],
+  liveDemo: "https://herbaltrace.vercel.app/",
+  image: herbaltrace
 },
 
-        {
-            title: "Rasoi",
-            description: "Rasoi is a food ordering app. It has strengthened my UI design and component structuring skills.",
-            techStack: ["HTML", "CSS", "JavaScript"],
-            liveDemo: "https://rasoii.netlify.app/",
-            image: rasoi
-        },
-        {
-            title: "Laughline",
-            description: "Laughline is a random joke generator app. I learnt API handling and understanding of asynchronous programming.",
-            techStack: ["HTML","CSS", "API Integration","JavaScript" ],
-            liveDemo: "https://randomjokeee.netlify.app",
-            image: laughline
-        },{
+       {
             title: "Spendwise",
             description: "Spendwise is a personal finance management app that helps users track their expenses and manage budgets effectively.",
             techStack: ["HTML", "CSS", "Javascript", "Firebase"],

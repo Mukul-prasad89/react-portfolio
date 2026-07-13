@@ -2,6 +2,7 @@ import React from "react";
 import {toast} from "react-toastify";
 
 import image from  "../assets/profile2.jpeg";
+// import image from  "../assets/mukul copy.png";
 
 const About = () => {
     const download = () => {
