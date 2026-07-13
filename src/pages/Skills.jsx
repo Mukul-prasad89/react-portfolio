@@ -17,7 +17,7 @@ const Skills = () => {
         },
         {
             title: "Tools & Technologies",
-            items: ["Git", "GitHub", "VS Code", ,"Unix-CL","Netlify","Vercel","Render"]
+            items: ["Git", "GitHub", "VS Code", "Unix-CL","Netlify","Vercel","Render"]
         },
         {
             title: "Data Structures & Algorithms",

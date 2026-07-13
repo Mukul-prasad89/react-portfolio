@@ -18,7 +18,7 @@ const About = () => {
                 <h1 className="about-heading">
                     About Me
                 </h1>
-                <img  className="about-image" src={image}></img>
+                <img className="about-image" src={image} alt="Mukul Prasad" />
                 
                 <h1 className="about-name">Mukul Prasad</h1>
                 <br></br>
@@ -32,7 +32,7 @@ const About = () => {
                 >
                     I am Full Stack Developer with a strong foundation in Data Structures & Algorithms.
                     <br></br>
-                    I have hands-on experience in building practical web applications including a <srtong> CodeTrack,
+                    I have hands-on experience in building practical web applications including a <strong> CodeTrack,
                     Food Delivery app, and a random joke generator.</srtong> These projects demonstrate my skills
                     in front-end development and backend integration.
                     <br /><br />
