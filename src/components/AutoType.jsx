@@ -8,12 +8,10 @@ export default function AutoType() {
   const [index, setIndex] = useState(0); 
   const [text, setText] = useState(""); 
   const [isDeleting, setIsDeleting] = useState(false); 
-  const [speed, setSpeed] = useState(80); 
 
   useEffect(() => {
     const current = roles[index % roles.length];
-    if (isDeleting) setSpeed(10);
-    else setSpeed(80);
+    const speed = isDeleting ? 10 : 80;
 
     const timeout = setTimeout(() => {
       setText((prev) =>
