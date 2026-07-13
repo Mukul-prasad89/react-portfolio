@@ -33,7 +33,7 @@ const About = () => {
                     I am Full Stack Developer with a strong foundation in Data Structures & Algorithms.
                     <br></br>
                     I have hands-on experience in building practical web applications including a <strong> CodeTrack,
-                    Food Delivery app, and a random joke generator.</srtong> These projects demonstrate my skills
+                    Food Delivery app, and a random joke generator</strong>. These projects demonstrate my skills
                     in front-end development and backend integration.
                     <br /><br />
                     I have solid understanding of core topics of Data Structures such as Arrays, Strings, Linked Lists,
