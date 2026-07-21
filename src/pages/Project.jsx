@@ -3,6 +3,7 @@ import ProjectCard from "../components/ProjectCard";
 import coldmail from '../assets/ColdMail.png';
 import herbaltrace from '../assets/herbaltrace.png';
 import spendwise from '../assets/spendwise.png';
+import gupShup from '../assets/GupShup.png';
 
 const Project = () => {
     const projectsData = [
@@ -37,12 +38,19 @@ const Project = () => {
   image: herbaltrace
 },
 
-       {
+        {
             title: "Spendwise",
             description: "Spendwise is a personal finance management app that helps users track their expenses and manage budgets effectively.",
             techStack: ["HTML", "CSS", "Javascript", "Firebase"],
             liveDemo: "https://spenddwisee.netlify.app/",
             image: spendwise
+        },
+        {
+            title: "GupShup",
+            description: "GupShup is a random chatroom app developed using WebSocket and React.js on the frontend with Node.js and Express.js on the backend. Users can join random chat rooms and communicate in real time seamlessly.",
+            techStack: ["ReactJs", "Node.js", "Express.js", "WebSocket"],
+            liveDemo: "https://gup-shup-six.vercel.app/",
+            image: gupShup
         }
         
     ];
